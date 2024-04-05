@@ -3,8 +3,8 @@ import { navLinks } from "../constants";
 
 const Navbar = () => {
     return (
-        <nav className="w-full flex py-6 justify-between items-center navbar">
-            <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <nav className="w-full flex py-6 justify-between items-center navbar mx-auto">
+            <ul className="list-none sm:flex hidden justify-center items-center flex-1 gap-x-[3vw]" >
                 {navLinks.map((nav, index) => (
                     <li key={nav.id} className="">
                         <a href={`#${nav.id}`}>
