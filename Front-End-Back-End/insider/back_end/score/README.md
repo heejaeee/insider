@@ -32,4 +32,5 @@ Month(User set)
 ((3 * PnL amount) + (7 * Profit percentage))
 
 Score
+Score will be determined with above calculations
 // To be determined
